@@ -9,9 +9,9 @@ package dekoratorlashue;
  *
  * @author lashue
  */
-public class Schoko extends ZutatenDekorierer{
+public class Soja extends ZutatenDekorierer{
 
-    public Schoko(String be, Getränk ge) {
+    public Soja(String be, Getränk ge) {
         super(be, ge);
     }
 
@@ -22,7 +22,7 @@ public class Schoko extends ZutatenDekorierer{
 
     @Override
     public double getPreis() {
-        return 0.5;
+        return 0.3;
     }
     
 }
